@@ -1,7 +1,5 @@
-package labsheet3.exercise1;
-
+package Lab4.exercise1;
 import javax.swing.*;
-
 public class Computer {
     private String manufacturer;
     private String type;
@@ -15,7 +13,7 @@ public class Computer {
     }
 
 
-    public Computer(String manufacturer,String type, double speed, int RAM, double price){
+    public Computer(String manufacturer, String type, double speed, int RAM, double price){
         this.manufacturer = manufacturer;
         this.type = type;
         this.speed = speed;
