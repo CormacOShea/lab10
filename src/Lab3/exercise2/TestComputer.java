@@ -13,19 +13,19 @@ public class TestComputer {
         output += "Calling the no-argument Computer constructor."+
                 "The first Computer object details are:\n\n" + c1.toString();
 
-        Computer c2 = new Computer("Dell","Laptop",3.25,16,550.99);
+      /*  Computer c2 = new Computer(" Dell "," Laptop ", -3.25 , -16 , -550.99 );
 
-        c2.setSpeed(-3.15);
+        c2.setSpeed(3.15);
 
         output+= "\n\nCalling the multi-argument Computer constructor." +
                 "The second Computer object details are:\n\n" + c2.toString();
 
-        Computer c3 = new Computer("Apple", "Desktop", 2.9, 12, 865.00);
+        Computer c3 = new Computer(" Apple ", " Desktop ",   2.9 ,   12 ,   865.00);
 
         c3.setRAM(-8);
 
         output += "\n\nCalling the multi-argument Computer constructor." +
-                "The third Computer constructor:\n\n" + c3.toString();
+                "The third Computer constructor:\n\n" + c3.toString();*/
 
         JOptionPane.showMessageDialog(null,output,"Computer Object Details",
                                   JOptionPane.INFORMATION_MESSAGE);
