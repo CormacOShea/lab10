@@ -7,7 +7,7 @@ package labsheet5.exercise1;
 
 
 
-import labsheet4.exercise5.Book;
+import Lab3.exercise2.Computer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,6 +18,10 @@ public class TestBook {
         String title, ISBN, output = "";
         double price;
         int pages;
+
+        Computer c1 = new Computer();
+
+        System.out.println(c1.getManufacturer());
 
        JTextArea textArea = new JTextArea();
        Font font = new Font("monospaced", Font.PLAIN,12);
