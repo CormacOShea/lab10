@@ -44,7 +44,7 @@ public class TestBook {
         ISBN = JOptionPane.showInputDialog("Please enter the ISBN of your least favourite book");
         pages = Integer.parseInt(JOptionPane.showInputDialog("Please enter the number of pages of your least favourite book"));
 
-        labsheet4.exercise5.Book leastFavouriteBook = new Book(title,price,ISBN,pages);
+        labsheet5.exercise1.Book leastFavouriteBook = new Book(title,price,ISBN,pages);
 
         output += String.format("\n\n%-25s%-9.2f%-15s%d", leastFavouriteBook.getTitle(),leastFavouriteBook.getPrice(),
                 leastFavouriteBook.getISBN(),leastFavouriteBook.getPages());
