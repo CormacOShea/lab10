@@ -36,7 +36,7 @@ public class Computer {
         setPrice(price);
     }
 
-    package String getManufacturer(){
+    public String getManufacturer(){
         return manufacturer;
     }
     public  String getType(){
