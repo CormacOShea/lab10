@@ -14,6 +14,7 @@ public class Product {
         setName(name);
         setDescription(description);
         autoIncrement();
+        setId(count);
     }
 
     public int getId() {
